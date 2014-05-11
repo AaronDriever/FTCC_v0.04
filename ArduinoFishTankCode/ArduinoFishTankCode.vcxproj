@@ -44,10 +44,10 @@
       <WarningLevel>Level3</WarningLevel>
       <Optimization>Disabled</Optimization>
       <SDLCheck>true</SDLCheck>
-      <AdditionalIncludeDirectories>I:\Arduino\hardware\arduino\cores\arduino;I:\Arduino\hardware\arduino\variants\standard;I:\Arduino\libraries\XBee;I:\Arduino\libraries\XBee\utility;I:\Arduino\libraries\SoftwareSerial;I:\Arduino\libraries\SoftwareSerial\utility;i:\arduino\hardware\tools\avr\avr\include\;i:\arduino\hardware\tools\avr\avr\include\avr\;i:\arduino\hardware\tools\avr\avr\;i:\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
-      <ForcedIncludeFiles>I:\Projects\FTCC_v0.04\ArduinoFishTankCode\Visual Micro\.ArduinoFishTankCode.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
+      <AdditionalIncludeDirectories>C:\Program Files (x86)\Arduino\hardware\arduino\cores\arduino;C:\Program Files (x86)\Arduino\hardware\arduino\variants\standard;F:\gDrive\Sketches and libraries\libraries\XBee;F:\gDrive\Sketches and libraries\libraries\XBee\utility;F:\gDrive\Sketches and libraries\libraries\SoftwareSerial;F:\gDrive\Sketches and libraries\libraries\SoftwareSerial\utility;C:\Program Files (x86)\Arduino\libraries;C:\Program Files (x86)\Arduino\hardware\arduino\libraries;C:\Program Files (x86)\Visual Micro\Visual Micro for Arduino\Micro Platforms\default\debuggers;F:\gDrive\Sketches and libraries\libraries;c:\program files (x86)\arduino\hardware\tools\avr\avr\include\;c:\program files (x86)\arduino\hardware\tools\avr\avr\include\avr\;c:\program files (x86)\arduino\hardware\tools\avr\avr\;c:\program files (x86)\arduino\hardware\tools\avr\lib\gcc\avr\4.3.2\include\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <ForcedIncludeFiles>F:\gDrive\Sketches and libraries\FTCC_v0.04\ArduinoFishTankCode\Visual Micro\.ArduinoFishTankCode.vsarduino.h;%(ForcedIncludeFiles)</ForcedIncludeFiles>
       <IgnoreStandardIncludePath>true</IgnoreStandardIncludePath>
-      <PreprocessorDefinitions>__AVR_ATmega328P__;ARDUINO=105;__AVR__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <PreprocessorDefinitions>__AVR_ATmega328p__;__AVR_ATmega328P__;ARDUINO=105;ARDUINO_MAIN;__AVR__;__avr__;F_CPU=16000000L;__cplusplus;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
     <Link>
       <GenerateDebugInformation>true</GenerateDebugInformation>
