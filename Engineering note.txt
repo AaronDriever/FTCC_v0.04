@@ -1,0 +1,4 @@
+-curently only the coms feature is functional. 7/20/13
+-plan to change the COMS window to a small text window that display a single continuously updating temperature string.
+-arduino code updating for lighting and better tempurature reading next.
+-instead of having the arduino report the temperature automaticaly,I think having the program ask for temp every 30 seconds or so using the timer funcion, this will keep the rest of the arduino code going contantly without using delay
