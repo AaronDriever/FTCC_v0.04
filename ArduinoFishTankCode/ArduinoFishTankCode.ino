@@ -12,7 +12,8 @@ long previousMillis = 0;
 long currentMillis = 100;
 long interval = 500;
 
-double Thermister(int RawADC) {
+double Thermister(int RawADC) 
+{
 	double Temp;
 	Temp = log(((10240000/RawADC) - 10000));
 	Temp = 1 / (0.001129148 + (0.000234125 + (0.0000000876741 * Temp * Temp ))* Temp );
@@ -38,7 +39,6 @@ void loop()
 
 
 	if (xbee.available() > 0)
-
 	{
 		//read byte from the data sent by the pc
 		commandIn = xbee.read();
